@@ -5,7 +5,9 @@
         <title> Este será o novo nome teste da página </title>
         <link rel="stylesheet" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-             
+          
+        <script type="text/javascript" src="Index.js"></script>
+
     </head>
 
 
@@ -72,7 +74,7 @@
 
     <div>
     <h1 class="titulo">Está é uma lista não odernada</h1>
-
+    <button type="button" class="btn btn-outline-info">Info</button>
 
     <ul>
 
@@ -141,16 +143,18 @@
 <h3>Fazendo formulário</h3>
 
      <p>Digite seu nome</p>
-        <input class="form-control" type="text">
+        <input id ="usuario" class="form-control" placeholder="Usuário" type="text">
 <br>
 <br>
     <p>Digite sua senha de login</p>
-        <input type="password">
 
-        <br><br>
+        <input id="senha" placeholder="Senha" type="password">
+ <br>
+ <br>
 
 
-<button>Enviar</button>
+
+<button onclick="mostrarMensagem()">Enviar</button>
 
         <br><br>
 
@@ -178,7 +182,7 @@
 <a class="btn btn-success" href="https://grandeporte.com.br/">Ir para o site da grandeporte</a>
 
 
-<a type="button" class="btn btn-outline-success">Success</a>
+<a onclick="mostrarMensagem()" type="button" class="btn btn-outline-success">Success</a>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
